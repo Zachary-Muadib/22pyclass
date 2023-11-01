@@ -39,4 +39,4 @@ else:
     else:
         x1_result = (-B + 1j * discriminant ** 0.5) / (2 * A)
         x2_result = (-B - 1j * discriminant ** 0.5) / (2 * A)
-        print(str(f"方程有两个共轭复根：\nx₁={format_output(x1_result)}\nx₂={format_output(x2_result)}").replace('j', 'i'))
+        print(f"方程有两个共轭复根：\nx₁={format_output(x1_result)}\nx₂={format_output(x2_result)}")
