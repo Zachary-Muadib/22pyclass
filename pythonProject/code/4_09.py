@@ -1,14 +1,14 @@
 # 获取用户输入的实数x
-x = float(input("请输入一个实数："))
+x = float(input("请输入x："))
 
 # 初始化泰勒级数的第一项值为1（对应于0的阶乘）
 term_value = 1
 
 # 初始化结果为0
-result = 1
+result = 0
 
 # 初始化n，它将用于表示当前项的索引
-n = 1
+n = 0
 
 # 初始化n的阶乘的值为1（0的阶乘为1）
 n_factorial = 1
@@ -22,4 +22,4 @@ while abs(term_value) >= 1e-6:
     term_value = (x ** n) / n_factorial  # 根据泰勒级数的公式计算下一项的值
 
 # 打印e^x的近似值，保留两位小数
-print(f"e^x的近似值为{result:.2f}")
+print(f"Pow(e,x) = {result:.2f}")
