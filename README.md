@@ -25,4 +25,8 @@ GitHub 仓库无法直接运行源代码。你可以将代码下载到本地，�
 
 若您在 Gitee 中打开了此仓库，意味着这是镜像仓库而非原生仓库，该仓库的用法与 Github 类似，由于 Gitee 支持中文，可以你可以很方便的自行研究其使用方法。
 
-如果有其他问题可以直接问我。
+## 仓库地址
+
+GitHub 仓库：[https://github.com/Zachary-Muadib/22pyclass](https://github.com/Zachary-Muadib/22pyclass)
+
+Gitee 镜像仓库（中国大陆）：[https://gitee.com/muadib/22pyclass](https://gitee.com/muadib/22pyclass)
