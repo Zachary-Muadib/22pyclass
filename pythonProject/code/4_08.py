@@ -27,10 +27,6 @@ while foots % 2 != 0:
 if heads * 2 > foots or heads * 4 < foots:
     sys.exit("方法一：无解，请重新运行测试！\n方法二：无解，请重新运行测试！\n方法三：无解，请重新运行测试！")
 
-# 检查输入是否符合题目逻辑
-if foots < heads * 2 or heads * 4 < foots:
-    sys.exit("输入的头和脚的数量不符合逻辑，请重新运行测试！（没兔子怎么叫鸡兔同笼问题嘛（小声逼逼")
-
 # 方法一：求解方程法
 # 使用sympy库定义两个方程并求解
 x1, y1 = sympy.symbols('x1, y1')
